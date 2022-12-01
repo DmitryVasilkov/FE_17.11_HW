@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 30%;
+    background-color: rgb(142, 190, 103);
+    padding: 40px;
+    border-radius: 5px;
+    
+}
+
+p {
+    color: rgb(0, 0, 255);
+    font-size: 24px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(212, 80, 80);
+   
+}
+
+button:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: rgb(77, 76, 76);
+    cursor: pointer;
+}
